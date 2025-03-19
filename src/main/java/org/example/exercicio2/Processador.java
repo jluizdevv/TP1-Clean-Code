@@ -1,4 +1,4 @@
-package Exercicio2;
+package org.example.exercicio2;
 
 public class Processador {
 
@@ -15,5 +15,8 @@ public class Processador {
             return "Erro: Dado muito curto.";
         }
         return "Dado válido: " + dado;
+    }
+
+    public void executar(String exemploDeDado) {
     }
 }

@@ -1,4 +1,4 @@
-package Exercicio9;
+package org.example.exercicio9;
 
 public class Processador {
 

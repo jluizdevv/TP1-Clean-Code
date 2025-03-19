@@ -1,4 +1,4 @@
-package Exercicio1;
+package org.example.exercicio1;
 
 public class Conta {
     private String nome;

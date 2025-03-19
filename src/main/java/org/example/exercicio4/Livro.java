@@ -1,4 +1,4 @@
-package Exercicio4;
+package org.example.exercicio4;
 
 
 public class Livro {

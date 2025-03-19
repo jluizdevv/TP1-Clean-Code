@@ -1,4 +1,4 @@
-package Exercicio8;
+package org.example.exercicio8;
 
 public class Pedido {
     private int id;

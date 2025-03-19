@@ -1,4 +1,4 @@
-package Exercicio5;
+package org.example.exercicio5;
 
 public class ContaBancaria {
     private String titular;

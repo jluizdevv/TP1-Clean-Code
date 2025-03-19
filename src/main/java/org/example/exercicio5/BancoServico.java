@@ -1,4 +1,4 @@
-package Exercicio5;
+package org.example.exercicio5;
 
 import java.util.HashMap;
 import java.util.Map;

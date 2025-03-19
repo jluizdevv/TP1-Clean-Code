@@ -1,20 +1,17 @@
 package org.example;
 
-import Exercicio5.BancoServico;
+import org.example.exercicio1.SistemaFinanceiro;
 
 public class Main {
     public static void main(String[] args) {
-        BancoServico banco = new BancoServico();
+        SistemaFinanceiro sistema = new SistemaFinanceiro();
 
-        banco.criarConta("José", 1000);
-        banco.criarConta("Maria", 500);
+        sistema.adicionarConta("José", 1000);
+        sistema.adicionarConta("Luiz", 1500);
 
-        banco.exibirSaldo("José");
-        banco.exibirSaldo("Maria");
+        sistema.gerarRelatorio();
 
-        banco.transferir("José", "Maria", 300);
-
-        banco.exibirSaldo("José");
-        banco.exibirSaldo("Maria");
+        sistema.processarPagamentos(100);
+        sistema.gerarRelatorio();
     }
 }
